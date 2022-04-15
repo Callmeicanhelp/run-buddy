@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 35px;
@@ -21,7 +22,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -30,18 +30,21 @@ header a {
 }
 
 header nav{
-    float: right;
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 .section-title {
