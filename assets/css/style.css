@@ -50,10 +50,11 @@ header nav ul li a {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20x 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -157,10 +158,6 @@ footer a {
 }
 /* Hero Style End */
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     /* add this alongside your other declarations */
     margin: 0 auto;
@@ -168,10 +165,10 @@ footer a {
     color: #39a6b2;
     width: 80%;
     font-size: 20 px;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -199,7 +196,6 @@ footer a {
 }
 
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -248,7 +244,6 @@ footer a {
 /* REACH OUT STYLES START */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -286,3 +281,7 @@ footer a {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
+
+.flex-row {
+    display: flex;
+}
